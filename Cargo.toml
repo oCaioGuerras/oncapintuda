@@ -6,5 +6,5 @@ edition = "2021"
 
 [dependencies]
 teloxide = "0.3.1"
-openai = "0.3.0"
-tokio-stream = { version = "0.1.5", features = ["tokio-02-preview"] }
+openai = "1.0.0-alpha.6"
+tokio-stream = "0.1.12"
