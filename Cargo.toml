@@ -1,0 +1,10 @@
+[package]
+name = "oncapintudacom3metros_bot"
+version = "0.1.0"
+authors = ["Caio <caio@guerras.com>"]
+edition = "2021"
+
+[dependencies]
+teloxide = "0.3.1"
+openai = "0.3.0"
+tokio-stream = { version = "0.1.5", features = ["tokio-02-preview"] }
